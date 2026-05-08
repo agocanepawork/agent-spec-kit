@@ -8,7 +8,6 @@ Most spec-driven development tooling assumes the artifact you're producing is co
 
 **Not affiliated with GitHub's [Spec Kit](https://github.com/github/spec-kit)** The naming references Spec Kit deliberately because the two projects compose. agent-spec-kit produces the agent contract; Spec Kit produces the implementation. See \\\[Using with Spec Kit](#using-with-spec-kit) below.
 
-\---
 
 ## Why this exists
 
@@ -24,7 +23,6 @@ The project also draws on academic work in the area:
 * Marri, S.R. (2026). *Constitutional Spec-Driven Development: Enforcing Security by Construction in AI-Assisted Code Generation*. arXiv:2602.02584. The constitutional layer in this toolkit is directly inspired by Marri's framing.
 * Piskala, D.B. (2026). *Spec-Driven Development: From Code to Contract in the Age of AI Coding Assistants*. arXiv:2602.00180. The three-level rigor model (spec-first, spec-anchored, spec-as-source) underlies the methodology choices.
 
-\---
 
 ## What this is
 
@@ -37,7 +35,6 @@ A small repository containing:
 
 Time to produce a complete agent spec from scratch: 15-30 minutes.
 
-\---
 
 ## Using with Spec Kit
 
@@ -64,7 +61,6 @@ You can use either tool on its own. `agent-spec-kit` produces a complete agent s
 
 Honest answer: not strictly. You could prompt Spec Kit's `/specify` phase to cover agent-specific content (autonomy, tools, termination, constitution) and get a passable result. `agent-spec-kit` gives you a pre-built, opinionated structure for that content, enforced consistency across multiple agent specs, and constitution-first ordering as an architectural priority. These are real but modest benefits, more about discipline than capability. The value is highest when you are specifying multiple agents on the same team and want a consistent shape across them, or when the agent operates in a domain where the constitutional layer carries real weight.
 
-\---
 
 ## Quick start
 
@@ -84,7 +80,6 @@ Honest answer: not strictly. You could prompt Spec Kit's `/specify` phase to cov
 
 See [USAGE.md](USAGE.md) for detailed instructions and tips.
 
-\---
 
 ## What the spec looks like
 
@@ -126,7 +121,6 @@ The constitution-first ordering is deliberate. In regulated and high-stakes cont
 
 For the full template with detailed guidance per section, see [`templates/agent-spec-template.md`](templates/agent-spec-template.md).
 
-\---
 
 ## Examples
 
@@ -137,7 +131,6 @@ The [`examples/`](examples/) directory contains two complete specs produced by r
 
 Both examples were produced using the long version of the interview.
 
-\---
 
 ## Project structure
 
@@ -157,7 +150,6 @@ agent-spec-kit/
         └── spec-interviewer.md            ← Claude Code subagent definition
 ```
 
-\---
 
 ## Design choices worth knowing
 
@@ -175,7 +167,6 @@ A few decisions baked into this project that you may want to understand before a
 
 **The interviewer pushes back on dangerous answers.** The prompt includes specific patterns for challenging users who say "no constitutional constraints," "fully autonomous," or "the LLM will figure it out." The spec produced is only as good as the answers given; the interviewer has a responsibility to probe.
 
-\---
 
 ## What this is not
 
@@ -184,7 +175,6 @@ A few decisions baked into this project that you may want to understand before a
 * **Not a regulatory compliance tool.** This is a methodology for capturing constraints. Verifying compliance against any specific framework remains the user's responsibility.
 * **Not a substitute for human review.** Generated specs should be reviewed by humans with relevant domain knowledge before use. The interview surfaces the right questions; humans answer them and verify the answers are right.
 
-\---
 
 ## Background
 
@@ -192,7 +182,6 @@ I spent the last year writing specifications for clinical AI agents in a regulat
 
 For the longer version of this argument, see the LinkedIn articles linked in [Why this exists](#why-this-exists).
 
-\---
 
 ## Acknowledgments
 
@@ -201,7 +190,6 @@ For the longer version of this argument, see the LinkedIn articles linked in [Wh
 * **Deepak Babu Piskala** for the spec-rigor spectrum in *Spec-Driven Development: From Code to Contract*.
 * **Anthropic** for Claude and Claude Code.
 
-\---
 
 ## License
 
