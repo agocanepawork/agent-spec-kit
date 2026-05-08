@@ -6,7 +6,7 @@ Most spec-driven development tooling assumes the artifact you're producing is co
 
 `agent-spec-kit` is a small toolkit for specifying AI agents using a structured interview, producing a markdown specification document organized in three layers: **constitution**, **specification**, and **operating envelope**.
 
-**Not affiliated with GitHub's Spec Kit (https://github.com/github/spec-kit)** The naming references Spec Kit deliberately because the two projects compose. agent-spec-kit produces the agent contract; Spec Kit produces the implementation. See \\\[Using with Spec Kit](#using-with-spec-kit) below.
+**Not affiliated with GitHub's [Spec Kit](https://github.com/github/spec-kit)** The naming references Spec Kit deliberately because the two projects compose. agent-spec-kit produces the agent contract; Spec Kit produces the implementation. See \\\[Using with Spec Kit](#using-with-spec-kit) below.
 
 \---
 
@@ -14,7 +14,7 @@ Most spec-driven development tooling assumes the artifact you're producing is co
 
 The argument for this project is laid out in two LinkedIn articles:
 
-* **Specs Are Eating PRDs** — *https://www.linkedin.com/pulse/specs-eating-prds-agostino-canepa-2q9me*
+* **[Specs Are Eating PRDs](https://www.linkedin.com/pulse/specs-eating-prds-agostino-canepa-2q9me)** 
 The broader trend: SDD is reshaping product management as code generation gets cheaper. PMs who can write precise behavioral specs will matter more than PMs who can paint a vision.
 * **Why Specifying an Agent Is Harder Than Specifying Code** — *\[paste article URL after publishing]*
 The specific problem this toolkit addresses: five things break when you move from specifying code to specifying agents. The current SDD tooling models none of them.
