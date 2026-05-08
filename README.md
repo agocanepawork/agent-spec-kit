@@ -6,7 +6,7 @@ Most spec-driven development tooling assumes the artifact you're producing is co
 
 `agent-spec-kit` is a small toolkit for specifying AI agents using a structured interview, producing a markdown specification document organized in three layers: **constitution**, **specification**, and **operating envelope**.
 
-**Not affiliated with GitHub's Spec Kit(https://github.com/github/spec-kit)** The naming references Spec Kit deliberately because the two projects compose. agent-spec-kit produces the agent contract; Spec Kit produces the implementation. See \\\[Using with Spec Kit](#using-with-spec-kit) below.
+**Not affiliated with GitHub's Spec Kit (https://github.com/github/spec-kit)** The naming references Spec Kit deliberately because the two projects compose. agent-spec-kit produces the agent contract; Spec Kit produces the implementation. See \\\[Using with Spec Kit](#using-with-spec-kit) below.
 
 \---
 
