@@ -195,7 +195,6 @@ For the longer version of this argument, see the LinkedIn articles linked in [Wh
 
 MIT. See [LICENSE](LICENSE).
 
-\---
 
 ## Contact
 
